@@ -1,5 +1,4 @@
 pandas > 1.0
 numpy > 1.0
-#matplotlib.pyplot > 1.0
-#matplotlib.image > 1.0
+
 seaborn > 1.0
