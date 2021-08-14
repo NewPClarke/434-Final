@@ -51,8 +51,9 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
-            make test
+            #. venv/bin/activate
+            #make test
+            pipenv run python test_myrepo.py test
 
       # Run lints
       - run:
